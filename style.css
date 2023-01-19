@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+@import url("https://use.typekit.net/jrf2fdz.css");
+
+/*Palette
+Orange #F29829
+Bleu #0070A6
+Blanc #ffffff
+Noir #000000*/
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/*Structures*/
+
+header{
+    background-color: #ffffff;
+    position: fixed;
+    padding: 1% 0;
+    box-shadow: 5px 5px 20px 2px #002c42;
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+}
+
+main{
+    padding: 0% ;
+}
+
+footer{
+    background-color: #ffffff;
+    padding: 1% 0;
+    box-shadow: 5px 5px 20px 2px #002c42;
+}
+
+.fond_bleu{
+    background-color: #0070A6;
+}
+
+.fond_orange{
+    background-color: #F29829;
+}
+
+.fond_blanc{
+    background-color: #ffffff;
+}
+
+#banniere{
+    background-color: #F29829;
+    padding: 0.5em;
+}
+
+.menu{
+    width: 35vh;
+}
+
+section{
+    padding: 2% 10%;
+}
+
+.no_padding{
+    padding: 0;
+}
+
+.padding1{
+    padding: 2% 10%;
+}
+
+.zone_50{
+    width: 50%;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#reseaux{
+    display: flex;
+    width: 20%;
+    margin: 0 auto;
+}
+
+/*Textes*/
+
+h1, h2, h3{
+    font-family: dunbar-low, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 3em;
+}
+
+h2{
+    font-family: dunbar-low, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 3em;
+}
+
+h3{
+    font-family: dunbar-low, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 2em;
+}
+
+h4{
+    font-family: dunbar-low, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+p{
+    font-family: 'Martel', serif;
+    padding: 0 0 1% 0;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul{
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+}
+
+li a{
+    font-family: dunbar-low, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+li a:hover{
+    color: #F29829;
+}
+
+.orange{
+    color: #F29829;
+}
+
+.bleu{
+    color: #0070A6;
+}
+
+.blanc{
+    color: #ffffff;
+}
+
+.noir{
+    color: #000000;
+}
+
+.centrage{
+    text-align: center;
+}
+
+header h1{
+    font-size: 1.5em;
+}
+
+.padding_texte1{
+    padding: 0 0 2% 0;
+}
+
+.padding_texte2{
+    padding: 2% 0 2% 0;
+}
+
+.padding_texte3{
+    padding: 0 0 4% 0;
+}
+
+#mentions{
+    display: block;
+    text-align: center;
+    font-family: dunbar-low, sans-serif;
+    text-decoration: none;
+    color: #0070A6;
+    font-size: 2em;
+}
+
+#mentions:hover{
+    color: #F29829;
+}
+
+article ul li{
+    font-family: 'Martel', serif;
+    padding: 0 0 1% 0;
+    font-size: 1em;
+}
+
+.sousligne{
+    text-decoration: underline;
+}
+
+/*Images*/
+
+#logo{
+    display: block;
+    width: 6%;
+    height: auto;
+    margin: 0 auto 0;
+    padding: 0 0 1% 0;
+}
+
+#img_principale{
+    background-image:url("Images/pexels-garvin-st-villier-14277568.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 70vh;
+    padding: 11% 0 0 0;
+}
+
+.img_flex{
+    width: 100%;
+}
+
+#map{
+    width: 60%;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+#logo_facebook{
+    width: 40%;
+}
+
+#logo_instagram{
+    padding: 20% 0 0 0;
+    width: 70%;
+}
+
+#ancre{
+    position: fixed;
+    bottom: 50px;
+    right: -200px;
+}
+
+#fleche{
+    width: 10%;
+}
+
+/*Formulaire de contact*/
+
+form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+form label{
+    color: #ffffff;
+    display: block;
+    font-family: 'Martel', serif;
+    padding: 1% 0 1% 0;
+}
+
+form input{
+    font-family: 'Martel', serif;
+    padding: 1% 0 0 1%;
+}
+
+#telephone, #sujet{
+    width: 30%;
+}
+
+#message{
+    width: 100%;
+    font-family: 'Martel', serif;
+    padding: 1% 1% 10% 1%;
+}
+
+.bouton{
+    background-color: #0070A6;
+    color: #ffffff;
+    border-radius: 29px;
+    padding: 1% 2%;
+    margin: 2% auto 2% auto;
+    border-width: 0;
+    display: block;
+}
+
+.bouton:hover{
+    background-color: #ffffff;
+    color:#0070A6;
+}
+
+/*Page Mentions légales*/
+
+#page_mentions{
+    padding: 20vh 0 0 0;
+}
+
+/*Responsive*/
+
+@media (max-width: 800px) {
+
+    /*Structures*/
+
+    section{
+        padding: 7% 10%;
+    }
+
+    .flex1, .flex2 {
+        flex-direction: column;
+    }
+
+    .zone_50 {
+        width: 100%;
+    }
+
+    /*Textes*/
+
+    h1{
+        font-size: 1.3em;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p{
+        font-size: 0.9em;
+        padding: 0 0 5% 0;
+    }
+
+    .padding_texte1 {
+        padding: 0 0 6% 0;
+    }
+
+    .padding_texte2 {
+        padding: 10% 0 10% 0;
+    }
+
+    .padding_texte3 {
+        padding: 6% 0 10% 0;
+    }
+
+    article ul li {
+        font-size: 0.9em;
+    }
+
+    #mentions{
+        padding: 10% 0 20% 0;
+    }
+
+    /*Images*/
+
+    #logo{
+            width: 22%;
+            padding: 1% 0 1% 0;
+    }
+        
+    #img_principale{
+        padding: 40% 0 0 0;
+        background-position-y: -100px;
+    }
+
+    #map{
+        width: 100%;
+        height: 400px;
+    }
+
+    #logo_facebook {
+        width: 160%;
+    }
+
+    #logo_instagram{
+        padding: 0%;
+    }
+
+    #reseaux{
+        flex-direction: column;
+    }
+
+    #ancre{
+        bottom: 50px;
+        right: -230px;
+    }
+
+    /*Formulaire de contact*/
+
+    form {
+        width: 100%;
+    }
+
+    #telephone, #sujet {
+        width: 100%;
+    }
+
+    .bouton{
+        padding: 3% 6%;
+        margin: 8% auto 8% auto;
+    }
+
+}
